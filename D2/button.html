@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>My Button</title>
+    </head>
+    <body>
+        <button id="count">count</button>
+        <label id="plus">0</label>
+        <script>
+            var count = 0;
+            const countbutton = document.getElementById('count');
+            const pluslabel = document.getElementById('plus');
+            countbutton.addEventListener('click', function() {
+                count++;
+                pluslabel.textContent = count;
+            });
+            var count=0;
+        </script>
+</html>
